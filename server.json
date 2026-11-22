@@ -1,8 +1,8 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "nl.vinylscout/vinylscout",
-  "title": "Vinylscout — Dutch Vinyl LP & Record Player Price Comparison",
-  "description": "Compare daily vinyl LP prices across 15 Dutch & EU web shops (incl. shipping), real price drops, the monthly Dutch LP price index, and record players & needles.",
+  "name": "io.github.techbybuild/vinylscout-mcp",
+  "title": "Vinylscout — Dutch Vinyl LP & Record Player Prices",
+  "description": "Live Dutch vinyl LP prices across 15 shops (incl. shipping), LP deals, price index & turntables.",
   "websiteUrl": "https://vinylscout.nl",
   "repository": {
     "url": "https://github.com/techbybuild/vinylscout-mcp",
