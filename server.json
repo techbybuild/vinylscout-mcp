@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "nl.vinylscout/vinylscout",
+  "title": "Vinylscout — Dutch Vinyl LP & Record Player Price Comparison",
+  "description": "Compare daily vinyl LP prices across 15 Dutch & EU web shops (incl. shipping), real price drops, the monthly Dutch LP price index, and record players & needles.",
+  "websiteUrl": "https://vinylscout.nl",
+  "repository": {
+    "url": "https://github.com/techbybuild/vinylscout-mcp",
+    "source": "github"
+  },
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://vinylscout.nl/api/mcp"
+    }
+  ]
+}

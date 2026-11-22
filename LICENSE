@@ -1,0 +1,4 @@
+# Licensing
+
+- Documentation, examples, configuration files, and workflow scripts in this repository are licensed under the **MIT License** (Copyright (c) 2026 Tech by Build).
+- The dataset in `data/lp-prijsindex.csv` (sourced from https://vinylscout.nl/lp-prijsindex/csv) is licensed under **Creative Commons Attribution 4.0 International (CC BY 4.0)**: https://creativecommons.org/licenses/by/4.0/. Please cite **Vinylscout.nl** (`https://vinylscout.nl/lp-prijsindex`) when reusing the figures.
