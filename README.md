@@ -5,6 +5,10 @@ Live Dutch vinyl LP price comparison across **15 Dutch & European web shops**, p
 - **Website:** https://vinylscout.nl
 - **Remote MCP Server (Streamable HTTP):** `https://vinylscout.nl/api/mcp`
 - **MCP Server Card:** https://vinylscout.nl/.well-known/mcp/server-card.json
+- **Developer portal:** https://vinylscout.nl/developers
+- **Vinylscout API documentation:** https://vinylscout.nl/docs
+- **Vinylscout MCP documentation:** https://vinylscout.nl/mcp
+- **Vinylscout CLI:** https://vinylscout.nl/cli
 - **OpenAPI 3.1 Spec:** https://vinylscout.nl/openapi.json
 - **LLM Guide (`llms.txt`):** https://vinylscout.nl/llms.txt
 - **Dutch LP Price Index (CSV, CC BY 4.0):** https://vinylscout.nl/lp-prijsindex/csv (mirrored monthly in [`data/lp-prijsindex.csv`](data/lp-prijsindex.csv))
@@ -12,6 +16,16 @@ Live Dutch vinyl LP price comparison across **15 Dutch & European web shops**, p
 Built and maintained by [Tech by Build](https://techbybuild.com) (Amsterdam, Netherlands).
 
 ---
+
+## Install the Vinylscout CLI
+
+```sh
+brew tap techbybuild/vinylscout-mcp https://github.com/techbybuild/vinylscout-mcp.git
+brew install techbybuild/vinylscout-mcp/vinylscout
+vinylscout search 'Fleetwood Mac Rumours' --limit 1
+```
+
+See the [CLI documentation](./cli/README.md) for usage.
 
 ## Connect the Remote MCP Server
 

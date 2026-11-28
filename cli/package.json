@@ -1,0 +1,27 @@
+{
+	"name": "@techbybuild/vinylscout",
+	"version": "1.0.0",
+	"description": "Official Vinylscout CLI for Dutch vinyl prices, deals, shops, the LP price index and turntables",
+	"homepage": "https://vinylscout.nl/cli",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/techbybuild/vinylscout-mcp.git",
+		"directory": "cli"
+	},
+	"license": "MIT",
+	"bin": {
+		"vinylscout": "./bin/vinylscout.mjs"
+	},
+	"files": [
+		"bin"
+	],
+	"engines": {
+		"node": ">=22"
+	},
+	"scripts": {
+		"test": "node --test test/*.test.mjs"
+	},
+	"publishConfig": {
+		"access": "public"
+	}
+}
